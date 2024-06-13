@@ -1208,7 +1208,7 @@
     "topLeft": {
      "kind": "Point",
      "x": 326.6779736328125,
-     "y": 372.5
+     "y": 371.5
     }
    },
    "state": {
@@ -1273,7 +1273,7 @@
    "groupPortPosition": {
     "kind": "Point",
     "x": 374.7879055786133,
-    "y": 364.5
+    "y": 363.5
    }
   },
   {
@@ -1733,7 +1733,7 @@
    "groupPortPosition": {
     "kind": "Point",
     "x": 426.89783752441406,
-    "y": 427.5
+    "y": 426.5
    }
   },
   {
@@ -6395,7 +6395,7 @@
    "groupPortPosition": {
     "kind": "Point",
     "x": 479.00776947021484,
-    "y": 364.5
+    "y": 363.5
    }
   },
   {
@@ -6899,7 +6899,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 19
+     "nRows": 1
     },
     "filters": {
      "kind": "Filters",
@@ -6936,7 +6936,7 @@
     "rowTable": {
      "kind": "CrosstabTable",
      "cellSize": 250.0,
-     "offset": 6,
+     "offset": 0,
      "graphicalFactors": [
       {
        "kind": "GraphicalFactor",
@@ -6958,31 +6958,10 @@
          "y": 0.0
         }
        }
-      },
-      {
-       "kind": "GraphicalFactor",
-       "factor": {
-        "kind": "Factor",
-        "name": "level",
-        "type": "string"
-       },
-       "rectangle": {
-        "kind": "Rectangle",
-        "extent": {
-         "kind": "Point",
-         "x": 50.0,
-         "y": 30.0
-        },
-        "topLeft": {
-         "kind": "Point",
-         "x": 0.0,
-         "y": 0.0
-        }
-       }
       }
      ],
      "rectangleSelections": [],
-     "nRows": 29
+     "nRows": 1
     },
     "taskId": ""
    },
