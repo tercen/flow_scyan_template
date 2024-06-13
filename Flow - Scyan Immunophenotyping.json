@@ -1,9 +1,9 @@
 {
  "kind": "Workflow",
- "id": "13",
+ "id": "14",
  "isDeleted": false,
  "rev": "",
- "description": "A template to perform immunophenotyping using scyan and dimension reduction (UMAP) on flow cytometry data.",
+ "description": "Perform immunophenotyping using scyan and dimension reduction (UMAP) on flow cytometry data.",
  "name": "Flow - Scyan Immunophenotyping",
  "acl": {
   "kind": "Acl",
@@ -342,7 +342,7 @@
     "kind": "TableStepModel",
     "relation": {
      "kind": "UnionRelation",
-     "id": "72787890-05ec-47f8-a880-e83c66603bf7",
+     "id": "9596b104-6666-4500-8e7f-25e345a56441",
      "relations": []
     }
    }
@@ -476,145 +476,9 @@
    "description": "",
    "model": {
     "kind": "MeltStepModel",
-    "factors": [
-     {
-      "kind": "Factor",
-      "name": "eFluor 450-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "BV480-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "BV510-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "VioGreen-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "BV605-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "BV650-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "BV711-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "BV750-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "BV785-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "BB515-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "RealBlue 545-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "BB700-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "PerCP-Cy5.5-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "PerCP-eFluor 710-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Real Blue 780-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "PE-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Real Yellow 586-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "PE-CF594-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Alexa Fluor 594-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "PE-Vio770-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "APC-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "eFluor 660-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "R718-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Zombie NIR-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "APC-eFluor 780-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "AF-A",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "BV421-A",
-      "type": "double"
-     }
-    ],
+    "factors": [],
     "namespace": "channel",
-    "selectionPattern": "",
+    "selectionPattern": "^(?!.*(comp_value|Center|Width|Offset|Time|Sample|FSC-A|FSC-H|SSC-A|SSC-H))",
     "factorType": "double",
     "gatherType": ""
    },
@@ -916,7 +780,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "02244263-9233-48aa-a267-1338b7640588"
+    "id": "b9f3bed0-3279-443c-96c9-6d07f9ee3a47"
    },
    "parentDataStepId": ""
   },
@@ -1239,7 +1103,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "2ea1cd16-ab1e-4506-8c6d-81d6a4c7df02"
+    "id": "09bd6807-ca2e-4dd3-9db8-92dad4f3d7e3"
    },
    "parentDataStepId": ""
   },
@@ -1820,7 +1684,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "cf27c0ce-06ff-428c-8664-6b414093bc6d"
+    "id": "a0ed6032-76e0-4b9a-b436-73b2166c4223"
    },
    "parentDataStepId": ""
   },
@@ -2153,7 +2017,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "517dd2f6-c981-4d21-97d7-b93c7972d121"
+    "id": "4731b3ea-3023-43e8-92fd-b1cbfa28835e"
    },
    "parentDataStepId": ""
   },
@@ -2482,7 +2346,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "1da509f9-7e1c-4197-bceb-b5f036c0657c"
+    "id": "4b02eacf-273a-4a55-857e-a7b880b7192d"
    },
    "parentDataStepId": ""
   },
@@ -2830,7 +2694,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "eaebbc79-b6bd-4dde-9edc-06e8efb95bc1"
+    "id": "cfbf6c72-e5b3-4ead-9da7-57719fea5d93"
    },
    "parentDataStepId": ""
   },
@@ -3323,7 +3187,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "43577e9e-0b47-4e46-abfd-b26d30e2f233"
+    "id": "66d0e4c7-aa08-431d-923a-dfd3a8c48f9a"
    },
    "parentDataStepId": ""
   },
@@ -3646,7 +3510,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "edd36955-f0e0-4aad-9290-f1f10ffab95b"
+    "id": "b238f6b1-dd9b-4410-9364-cda85e4a4597"
    },
    "parentDataStepId": ""
   },
@@ -4151,7 +4015,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "ceab55fa-c379-4e3a-8c7d-08269b40f851"
+    "id": "6e0a75a2-66fe-43cf-9cfa-de634b848f89"
    },
    "parentDataStepId": ""
   },
@@ -4571,7 +4435,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "0330ffab-96fe-4cbb-9e64-cc1ffcdfd25a"
+    "id": "934d43f6-a117-42b1-b096-a17fb922b092"
    },
    "parentDataStepId": ""
   },
@@ -5043,7 +4907,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "6b3ec370-504d-42c9-b3bd-a2208b64dc80"
+    "id": "08a4cf4a-dfa6-43b5-b1ac-3ea7bb72eb4f"
    },
    "parentDataStepId": ""
   },
@@ -5427,7 +5291,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "fc54f0e6-877e-45c5-83e0-4162f5c3b45d"
+    "id": "086de1cc-ea3f-48a7-8094-e56bf5b9908f"
    },
    "parentDataStepId": ""
   },
@@ -5881,7 +5745,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "c7a23223-280e-4e7f-89ab-8bf8cf6d3c60"
+    "id": "b5770722-271d-4c3d-9307-14d6ea08ba9e"
    },
    "parentDataStepId": ""
   },
@@ -6482,7 +6346,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "b2bdc6ba-8de6-4fb5-aba4-e81a77febc94"
+    "id": "c233ade7-d9a2-4fca-bb34-547008f1203e"
    },
    "parentDataStepId": ""
   },
@@ -6850,7 +6714,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "6ea66047-63fb-43f8-ab05-602a3663d149"
+    "id": "d2dc5833-d9c0-4190-898b-eb472dd93541"
    },
    "parentDataStepId": ""
   },
@@ -7124,7 +6988,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "ae4d91fb-cd4f-4570-aa21-1e7e0148000e"
+    "id": "02f24990-5c5a-459d-b18b-eb958e57f5cf"
    },
    "parentDataStepId": "e43661cb-487a-4ac3-bf86-4757fe6484eb"
   },
@@ -7654,7 +7518,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "9105b146-a37d-4303-8ee6-2c62c3223000"
+    "id": "0714d74d-774b-43c8-b933-327988913a75"
    },
    "parentDataStepId": ""
   },
@@ -7988,7 +7852,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "973fe01f-cfb8-467a-a220-54547f6a3a11"
+    "id": "c39dc9d8-dc80-4855-a64e-e0de370c1f90"
    },
    "parentDataStepId": ""
   },
@@ -8334,7 +8198,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "a3e9ef94-8ed2-4589-aac0-b60893a16848"
+    "id": "b0b470b5-df50-4a48-9303-ea7461e9448c"
    },
    "parentDataStepId": ""
   }
