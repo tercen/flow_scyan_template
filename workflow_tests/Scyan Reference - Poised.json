@@ -4,7 +4,7 @@
  "isDeleted": false,
  "rev": "",
  "description": "",
- "name": "scyan_poised_reference_full.csv",
+ "name": "Scyan Reference - Poised",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -19,12 +19,21 @@
   "value": ""
  },
  "urls": [],
- "tags": [],
+ "tags": [
+  "scyan",
+  "reference",
+  "population marker map"
+ ],
  "meta": [
   {
    "kind": "Pair",
    "key": "SHA256",
    "value": "064a148e9dbde48e8caaf83730319b6280dd543514f6affe7c4afdc18381a7bf"
+  },
+  {
+   "kind": "Pair",
+   "key": "PUBLISHED",
+   "value": "true"
   }
  ],
  "url": {
