@@ -3,8 +3,8 @@
  "id": "14",
  "isDeleted": false,
  "rev": "",
- "description": "Perform immunophenotyping using scyan and dimension reduction (UMAP) on flow cytometry data.",
- "name": "Flow - Scyan Immunophenotyping",
+ "description": "Preprocess FCS files and perform automated immunophenotyping using Scyan and UMAP.",
+ "name": "Flow Immunophenotyping - Scyan",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -22,7 +22,8 @@
  "tags": [
   "flow cytometry",
   "clustering",
-  "immunophenotyping"
+  "immunophenotyping",
+  "dimension reduction"
  ],
  "meta": [
   {
